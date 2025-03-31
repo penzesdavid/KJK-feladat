@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url('./kepek/bg.jpg');
+    background-size: cover;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+header{
+    background-image: url('./kepek/paper.jpg');
+    padding: 20px;
+    text-align: center;
+    margin: 1rem;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+main{
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.box{
+    background-color: rgba(217, 192, 143, 0.8);
+    margin: 30px;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    text-align: justify;
+}
+
+img{
+    width: 100%;
+    height: auto;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.btn{
+    background-color: rgb(145, 145, 145);
+    margin: 5px;
+}
+
+.btn:hover{
+    background-color: rgb(255, 255, 255);
+    color: black;
+    transition: all 0.5s ease-in-out;
+}
