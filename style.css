@@ -25,7 +25,8 @@ main{
 }
 
 .box{
-    background-color: rgba(217, 192, 143, 0.8);
+    background-image: url('./kepek/paper.jpg');
+    background-size: cover;
     margin: 30px;
     padding: 20px;
     border-radius: 20px;
@@ -49,4 +50,13 @@ img{
     background-color: rgb(255, 255, 255);
     color: black;
     transition: all 0.5s ease-in-out;
+}
+
+.home{
+    width: 20%;
+    border-radius: 10px;
+}
+
+.home img{
+    width: 30%;
 }
