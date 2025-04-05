@@ -10,6 +10,16 @@ body{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
+footer{
+    margin: 10px;
+    background-image: url('./kepek/paper.jpg');
+    background-size: auto;
+    text-align: right;
+    padding: 10px;
+    border-radius: 20px;
+    color: white;
+}
+
 header{
     background-image: url('./kepek/paper.jpg');
     padding: 20px;
