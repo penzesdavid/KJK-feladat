@@ -85,6 +85,7 @@
 <p></p>
                     <p>Benedek túlélte, és a háborúban újabb fejezet kezdődött... 🔥</p>
 
+                    <button onclick="goBack()">Vissza az előző oldalra</button>
                 </div>
             </div>
             <div class="col-sm-6">
@@ -114,6 +115,10 @@
             alert("Nincs mentett állapot.");
           }
         }
+
+        function goBack() {
+    window.history.back(); // Visszavisz az előző oldalra
+  }
       </script>
 </body>
 

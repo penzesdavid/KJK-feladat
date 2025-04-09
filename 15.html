@@ -61,6 +61,8 @@
 <p></p>
                     <p>A történet véget ér, de a harc még tart… 🔥</p>
 
+                    <button onclick="goBack()">Vissza az előző oldalra</button>
+
                 </div>
                 <div class="col-sm-6">
                     <img src="./kepek/15.png" alt="Hiba" class="img-fluid">
@@ -89,6 +91,10 @@
             alert("Nincs mentett állapot.");
           }
         }
+
+        function goBack() {
+    window.history.back(); // Visszavisz az előző oldalra
+  }
       </script>
 </body>
 

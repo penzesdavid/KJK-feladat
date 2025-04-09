@@ -49,6 +49,7 @@
 
                     <a href="13.html" class="btn">13-Azonnal támadásba lendülni, és leszámolni az árnyékos követővel.</a>
                     <a href="end.html" class="btn">14-Folytatni az utat, de még óvatosabban, hátha csapdába akarják csalni.</a>
+                    <button onclick="goBack()">Vissza az előző oldalra</button>
                 </div>
             </div>
             <div class="col-sm-6">
@@ -78,6 +79,10 @@
             alert("Nincs mentett állapot.");
           }
         }
+
+        function goBack() {
+    window.history.back(); // Visszavisz az előző oldalra
+  }
       </script>
 </body>
 

@@ -43,6 +43,7 @@
 
                     <a href="end.html" class="btn">Megfordulni és támadásba lendülni.</a>
                     <a href="21.html" class="btn">Tovább lopakodni, bízva abban, hogy az árnyak elrejtik</a>
+                    <button onclick="goBack()">Vissza az előző oldalra</button>
 
                 </div>
                 <div class="col-sm-6">
@@ -72,6 +73,10 @@
             alert("Nincs mentett állapot.");
           }
         }
+
+        function goBack() {
+    window.history.back(); // Visszavisz az előző oldalra
+  }
       </script>
 </body>
 

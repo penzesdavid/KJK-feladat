@@ -82,7 +82,7 @@
 
                     <p>A történet véget ér, de a harc folytatódik... 🔥</p>
 
-                    
+                    <button onclick="goBack()">Vissza az előző oldalra</button>
                 </div>
             </div>
             <div class="col-sm-6">
@@ -112,6 +112,10 @@
             alert("Nincs mentett állapot.");
           }
         }
+
+        function goBack() {
+    window.history.back(); // Visszavisz az előző oldalra
+  }
       </script>
 </body>
 

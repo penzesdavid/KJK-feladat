@@ -39,6 +39,7 @@
 
                     <a href="9.html" class="btn">9-Megvárni, amíg a katona teljesen eltűnik, és visszatérni az eredeti útvonalra.</a>
                     <a href="end.html" class="btn">10-Kihasználni a helyzetet, és lopakodva követni a katonát, hátha megtudhat valami fontosat.</a>
+                    <button onclick="goBack()">Vissza az előző oldalra</button>
                 </div>
             </div>
             <div class="col-sm-6">
@@ -68,6 +69,10 @@
             alert("Nincs mentett állapot.");
           }
         }
+
+        function goBack() {
+    window.history.back(); // Visszavisz az előző oldalra
+  }
       </script>
 </body>
 

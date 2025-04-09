@@ -39,6 +39,7 @@
 
                     <a href="7.html" class="btn">7-Megbízni az idegenben, és követni egy alternatív útvonalon.</a>
                     <a href="8.html" class="btn">8-Gyanakodni, és egyedül folytatni az útját.</a>
+                    <button onclick="goBack()">Vissza az előző oldalra</button>
                 </div>
             </div>
             <div class="col-sm-6">
@@ -68,6 +69,10 @@
             alert("Nincs mentett állapot.");
           }
         }
+
+        function goBack() {
+    window.history.back(); // Visszavisz az előző oldalra
+  }
       </script>
 </body>
 

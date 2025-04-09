@@ -48,6 +48,7 @@
 
                     <a href="1.html" class="btn">19-Megkerülni az ellenőrzőpontot egy régi, félig összeomlott épületen keresztül, vállalva a sérülés kockázatát.</a>
                     <a href="end.html" class="btn">20-Kivárni, amíg a katonák elmozdulnak, és a lehető leggyorsabban átfutni az utcán.</a>
+                    <button onclick="goBack()">Vissza az előző oldalra</button>
                 </div>
             </div>
             <div class="col-sm-6">
@@ -77,6 +78,10 @@
             alert("Nincs mentett állapot.");
           }
         }
+
+        function goBack() {
+    window.history.back(); // Visszavisz az előző oldalra
+  }
       </script>
 </body>
 

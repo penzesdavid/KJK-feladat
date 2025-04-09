@@ -41,6 +41,7 @@
 
                     <a href="5.html" class="btn">5-Haladni a fény felé, és felfedezni az alagutak mélyén rejlő titkokat</a>
                     <a href="6.html" class="btn">6-Eltérni a fénytől, és titokban folytatni az utat</a>
+                    <button onclick="goBack()">Vissza az előző oldalra</button>
                 </div>
             </div>
             <div class="col-sm-6">
@@ -70,6 +71,10 @@
             alert("Nincs mentett állapot.");
           }
         }
+
+        function goBack() {
+    window.history.back(); // Visszavisz az előző oldalra
+  }
       </script>
 </body>
 
