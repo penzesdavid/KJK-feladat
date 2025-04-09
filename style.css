@@ -14,10 +14,9 @@ footer{
     margin: 10px;
     background-image: url('./kepek/paper.jpg');
     background-size: auto;
-    text-align: right;
+    text-align: center;
     padding: 10px;
     border-radius: 20px;
-    color: white;
 }
 
 header{
@@ -60,7 +59,7 @@ img{
 .btn:hover{
     background-color: rgb(255, 255, 255);
     color: black;
-    transition: all 0.5s ease-in-out;
+    transition: all 0.2s ease-in-out;
 }
 
 .home{
@@ -70,4 +69,25 @@ img{
 
 .home img{
     width: 30%;
+}
+
+nav{
+    background-color: rgb(145, 145, 145);
+    border: 3px solid black;
+    padding: 5px;
+    border-radius: 100px;
+    
+}
+
+.gomb{
+    background-color: grey;
+    color: white;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.gomb:hover{
+    background-color: rgb(255, 255, 255);
+    color: black;
+    transition: all 0.2s ease-in-out;
 }
